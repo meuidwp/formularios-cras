@@ -1,6 +1,6 @@
 /* Service worker: deixa o aplicativo abrir offline.
    Ao publicar uma nova versão do app, aumente o número em VERSION para atualizar o cache nos aparelhos. */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'formularios-' + VERSION;
 const PRECACHE = [
   './',
@@ -14,6 +14,7 @@ const PRECACHE = [
   './icons/favicon.ico',
   './forms/auxilio-aluguel.html',
   './forms/auxilio-funeral.html',
+  './forms/identificacao-familiar.html',
   './forms/viva-leite.html',
   './forms/passagem.html',
   './forms/registro-beneficios.html',
